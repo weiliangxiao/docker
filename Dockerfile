@@ -3,4 +3,6 @@
 #FROM gcr.io/kubeflow-images-staging/tf_operator:v20180226-403
 #FROM gcr.io/kubeflow/tensorflow-notebook-cpu
 #FROM gcr.io/kubeflow/tensorflow-notebook-gpu:8fbc341245695e482848ac3c2034a99f7c1e5763
-FROM gcr.io/kubeflow/tf-benchmarks-cpu:v20171202-bdab599-dirty-284af3
+#FROM gcr.io/kubeflow/tf-benchmarks-cpu:v20171202-bdab599-dirty-284af3
+#FROM gcr.io/kubeflow/tf-benchmarks-cpu:v20171202-bdab599-dirty-284af3
+FROM gcr.io/kubeflow/tensorflow-notebook-gpu:8fbc341245695e482848ac3c2034a99f7c1e5763

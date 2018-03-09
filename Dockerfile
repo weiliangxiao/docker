@@ -6,4 +6,4 @@
 #FROM gcr.io/kubeflow/tf-benchmarks-cpu:v20171202-bdab599-dirty-284af3
 #FROM gcr.io/kubeflow/tf-benchmarks-cpu:v20171202-bdab599-dirty-284af3
 #FROM gcr.io/kubeflow/tensorflow-notebook-gpu:8fbc341245695e482848ac3c2034a99f7c1e5763
-FROM gcr.io/google_containers/defaultbackend:1.4
+FROM k8s.gcr.io/defaultbackend:1.0
